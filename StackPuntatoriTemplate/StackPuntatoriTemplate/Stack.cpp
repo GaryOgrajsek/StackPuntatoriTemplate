@@ -19,12 +19,6 @@ void Stack<tipo>::Pop() {
 		L = temp->getPunt();
 		delete temp;
 	}
-	
-	if (P->getPunt() != 0) {
-		Nodo *P = L;
-		L = P->getPunt();
-		delete P;
-}
 }
 
 template <class tipo>
