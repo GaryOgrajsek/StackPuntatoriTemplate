@@ -6,8 +6,7 @@
 template <class tipo>
 class Stack{
 private:
-	Nodo<tipo>* primo;
-	Nodo<tipo>* ultimo;
+	Nodo<tipo>* L;
 
 public:
 	Stack();
